@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geburtstagsparty von Leo!</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom right, #d0f0ff, #fff0f5);
+      text-align: center;
+      padding: 20px;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #140744;
+      animation: popIn 1s ease-out;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05) rotate(-2deg);
+    }
+
+    .info {
+      background-color: #fff8dc;
+      border: 3px dashed #ffcc00;
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 200, 0, 0.4);
+      animation: slideUp 1s ease-out;
+    }
+
+    .download-button {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1em;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .download-button:hover {
+      background-color: #45a049;
+    }
+
+    /* Animationen */
+    @keyframes popIn {
+      0% {
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎂 Jonas' 10 1/2. Geburtstag! 🎉</h1>
+  <img src="fledermaus2.jpeg" alt="Lustige Robo-Fledermaus">
+
+  <div class="info">
+    <h2>Ich will meinen Geburtstag mit Dir feiern!</h2>
+    <p><strong>Wann:</strong> Sonntag, 29. Juni 2025<br>
+      <strong>Uhrzeit:</strong> 09:30 – 14:00 Uhr<br>
+      <strong>Treffpunkt:</strong> Eingang Heidelberger Zoo, Tiergartenstraße 3,
+      69120 Heidelberg
+    </p>
+    <!-- Google Maps Link -->
+    <a class="maps-link" href="https://maps.app.goo.gl/PSqfCmtbokGxD92r7" target="_blank">📍 Ort auf Google Maps
+      anzeigen</a>
+
+    <p>Es geht ins Techniklabor mit dem Thema "elektronische Fledermaus".</p>
+    <p>Am besten morgens zuhause frühstücken, denn es geht um 10 direkt los. Später ist Zeit für Essen und Trinken.</p>
+    <p>Bitte denkt an Sonnenschutz und Kappi.</p>
+    <p>Ich freue mich auf euch 😊 </p>
+
+  </div>
+
+</body>
+
+</html>
